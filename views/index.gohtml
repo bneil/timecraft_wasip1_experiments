@@ -1,0 +1,44 @@
+{{define "index"}}
+
+    <!doctype html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{.title}} - Science!</title>
+        <meta name="description" content="Just doing some testing with things">
+        <link rel="shortcut icon" href="https://picocss.com/favicon.ico">
+
+        <!-- Pico.css -->
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    </head>
+
+    <body>
+
+    <!-- Header -->
+    <header class="container">
+        <hgroup>
+            <h1>Welcome</h1>
+            <h2>Trying out this wasip1 in go</h2>
+        </hgroup>
+        <!-- Main -->
+        <main class="container">
+            <!-- Headings-->
+            <h3>Set up</h3>
+            <p>Should mostly be able to run `make build && make run`</p>
+        </main><!-- ./ Main -->
+
+        <!-- Footer -->
+        <footer class="container">
+            <small>Built with
+                <a href="https://docs.timecraft.dev/">Timecraft</a> and
+                <a href="https://picocss.com">Pico</a>
+        </footer><!-- ./ Footer -->
+
+    </header>
+
+    </body>
+
+    </html>
+{{end}}
